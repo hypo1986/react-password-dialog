@@ -1,0 +1,89 @@
+.smsAlert{
+  position: fixed;
+  left: 0;
+  top:0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.5);
+  z-index: 11;
+  .main{
+    position: absolute;
+    top:50%;
+    left: 10%;
+    width: 80%;
+    margin-top:-2.2rem;
+    background-color: #fff;
+    border-radius: .08rem;
+    .title{
+      text-align: center;
+      font-size: .32rem;
+      color: #333333;
+      padding-top: .5rem;
+    }
+    .text{
+      font-size: .26rem;
+      color: #666666;
+      text-align: center;
+      padding: .6rem .4rem .3rem;
+    }
+    p{
+      margin: 0;
+      padding: 0;
+      text-align: left;
+    }
+    .ftError{
+      margin-top: .1rem;
+      font-size: .24rem;
+      color: #FF4951;
+      text-align: left;
+      line-height: .24rem;
+      height: .24rem;
+      padding-left: 1.56rem;
+    }
+    .smsForm{
+      position: relative;
+      margin-top:.3rem;
+      input{
+        vertical-align: middle;
+        width:2.74rem;
+        height:.5rem;
+        border:1px solid rgba(203,203,203,1);
+        padding-left: .1rem;
+      }
+      span{
+        position: absolute;
+        top: .1rem;
+        left: 3.1rem;
+        color: #999999;
+        &.on{
+          color: #FF6200;
+        }
+      }
+      i{
+        font-style: normal;
+        color:#FF6200;
+        font-size: .22rem;
+        padding-left:.1rem;
+      }
+    }
+    .btnWrap{
+      display: -webkit-flex;
+      display: flex;
+      border-top: #dddddd solid .01rem;
+      .cancel,.confirm{
+        font-size: .32rem;
+        color: #666666;
+        text-align: center;
+        line-height: .96rem;
+        -webkit-flex:1;
+        flex:1;
+      }
+      .confirm{
+        color: #FF6200;
+      }
+      .cancel{
+        border-right: #dddddd solid .01rem;
+      }
+    }
+  }
+}
