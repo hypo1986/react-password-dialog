@@ -11,7 +11,7 @@
     top:50%;
     left: 10%;
     width: 80%;
-    margin-top: -3rem;
+    margin-top: -3.6rem;
     background-color: #fff;
     border-radius: .08rem;
     .title{
@@ -24,20 +24,35 @@
       font-size: .32rem;
       color: #333333;
       text-align: center;
-      padding: .6rem .4rem;
+      padding: .6rem .4rem .3rem;
       span{
         input{
-          border:#CBCBCB 0.01rem solid;
+          -webkit-appearance: none;
+          border-radius: 0;
+          border:#CBCBCB 0.02rem solid;
+          background-color: #fff;
           width: .56rem;
           height: .56rem;
+          line-height: .56rem;
+          vertical-align: middle;
           text-align: center;
           margin: 0 .1rem; 
           color: #999;
-          font-size: .6rem;
+          font-size: .46rem;
+          padding: 0;
+          overflow: hidden;
         }
       }
     }
+    .forgetPwd{
+      text-align: center;
+      span{
+        font-size: .3rem;
+        color: blue;
+      }
+    }
     .btnWrap{
+      margin-top: .3rem;
       display: -webkit-flex;
       display: flex;
       border-top: #dddddd solid .01rem;

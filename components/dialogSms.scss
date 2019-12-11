@@ -44,6 +44,8 @@
       position: relative;
       margin-top:.3rem;
       input{
+        -webkit-appearance: none;
+        border-radius: 0;
         vertical-align: middle;
         width:2.74rem;
         height:.5rem;
